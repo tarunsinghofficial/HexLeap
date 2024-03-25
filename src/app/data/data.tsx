@@ -12,105 +12,105 @@ const data = [
         sport: [
             {
                 id: 1,
-                backgroundUrl: one,
+                backgroundUrl: one.src,
                 title: "Sacramento River Cats",
                 sport: "Baseball",
                 totalEvents: "48"
             },
             {
                 id: 2,
-                backgroundUrl: two,
+                backgroundUrl: two.src,
                 title: "Las Vegas Aviators",
                 sport: "Baseball",
                 totalEvents: "28"
             },
             {
                 id: 3,
-                backgroundUrl: three,
+                backgroundUrl: three.src,
                 title: "New Jersey Devils",
                 sport: "Ice Hockey",
                 totalEvents: "15"
             },
             {
                 id: 4,
-                backgroundUrl: four,
+                backgroundUrl: four.src,
                 title: "Las Vegas Aviators",
                 sport: "Baseball",
                 totalEvents: "28"
             },
             {
                 id: 5,
-                backgroundUrl: three,
+                backgroundUrl: three.src,
                 title: "New Jersey Devils",
                 sport: "Ice Hockey",
                 totalEvents: "15"
             },
             {
                 id: 6,
-                backgroundUrl: four,
+                backgroundUrl: four.src,
                 title: "Las Vegas Aviators",
                 sport: "Baseball",
                 totalEvents: "28"
             },
             {
                 id: 7,
-                backgroundUrl: three,
+                backgroundUrl: three.src,
                 title: "New Jersey Devils",
                 sport: "Ice Hockey",
                 totalEvents: "15"
             },
             {
                 id:8,
-                backgroundUrl: four,
+                backgroundUrl: four.src,
                 title: "Las Vegas Aviators",
                 sport: "Baseball",
                 totalEvents: "28"
             },
             {
                 id: 9,
-                backgroundUrl: three,
+                backgroundUrl: three.src,
                 title: "New Jersey Devils",
                 sport: "Ice Hockey",
                 totalEvents: "15"
             },
             {
                 id: 10,
-                backgroundUrl: four,
+                backgroundUrl: four.src,
                 title: "Las Vegas Aviators",
                 sport: "Baseball",
                 totalEvents: "28"
             },
             {
                 id: 11,
-                backgroundUrl: four,
+                backgroundUrl: four.src,
                 title: "Las Vegas Aviators",
                 sport: "Baseball",
                 totalEvents: "28"
             },
             {
                 id: 12,
-                backgroundUrl: three,
+                backgroundUrl: three.src,
                 title: "New Jersey Devils",
                 sport: "Ice Hockey",
                 totalEvents: "15"
             },
             {
                 id:13,
-                backgroundUrl: four,
+                backgroundUrl: four.src,
                 title: "Las Vegas Aviators",
                 sport: "Baseball",
                 totalEvents: "28"
             },
             {
                 id: 14,
-                backgroundUrl: three,
+                backgroundUrl: three.src,
                 title: "New Jersey Devils",
                 sport: "Ice Hockey",
                 totalEvents: "15"
             },
             {
                 id: 15,
-                backgroundUrl: four,
+                backgroundUrl: four.src,
                 title: "Las Vegas Aviators",
                 sport: "Baseball",
                 totalEvents: "28"
@@ -119,7 +119,7 @@ const data = [
         spot: [
             {
                 id: 1,
-                backgroundUrl: spot1,
+                backgroundUrl: spot1.src,
                 title: "Las Vegas Aviators",
                 dataTime: "Oct 15 | Sun | 4:30 PM",
                 location: "Las Vegas Ballpark, Las Vegas, Nevada",
@@ -128,7 +128,7 @@ const data = [
             },
             {
                 id: 2,
-                backgroundUrl: spot2,
+                backgroundUrl: spot2.src,
                 title: "Sacramento River Cats",
                 dataTime: "Oct 15 | Sun | 4:30 PM",
                 location: "Sutter Health Park, Sacramento, California",
@@ -137,7 +137,7 @@ const data = [
             },
             {
                 id: 3,
-                backgroundUrl: spot3,
+                backgroundUrl: spot3.src,
                 title: "Las Vegas Aviators",
                 dataTime: "Oct 15 | Sun | 4:30 PM",
                 location: "Las Vegas Ballpark, Las Vegas, Nevada",
@@ -150,7 +150,7 @@ const data = [
                 id: 1,
                 adUrl: "https://www.google.com",
                 title: "Advertisment title",
-                imgUrl: adImage,
+                imgUrl: adImage.src,
                 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             }
         ]
