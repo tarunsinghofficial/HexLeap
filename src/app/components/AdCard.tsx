@@ -1,20 +1,15 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
 
-function AdCard({
-    backgroundImageUrl,
-    title,
-    description,
-    adUrl
-}: {
-    backgroundImageUrl: any,
-    title: string,
-    description: string,
-    adUrl: string
-}) {
+interface AdCardProps {
+    backgroundImageUrl: string;
+    title: string;
+    description: string;
+}
+
+function AdCard({ backgroundImageUrl, title, description }: AdCardProps) {
     return (
-        <Link href= {adUrl} className='w-[10rem] h-[25rem]  md:w-[15rem] md:h-[32rem] xl:w-[238.53px] xl:h-[511px] bg-white dark:bg-[#3B3E47] drop-shadow-md hover:drop-shadow-xl p-2 flex flex-col gap-2'>
+        <div className='w-[10rem] h-[25rem]  md:w-[15rem] md:h-[32rem] xl:w-[238.53px] xl:h-[511px] bg-white dark:bg-[#3B3E47] drop-shadow-md hover:drop-shadow-xl p-2 flex flex-col gap-2'>
             <div className='border-[0.2px] border-[#006555]'>
             <div className='relative'>
                 <Image src={backgroundImageUrl} alt={title} width={1000} height={1000} />
@@ -25,7 +20,7 @@ function AdCard({
                 <p className='text-[#525965] dark:text-[#DFDFDF] text-xs md:text-xs lg:text-sm overflow-hidden'>{description}</p>
             </div>
             </div>
-        </Link>
+        </div>
     )
 }
 

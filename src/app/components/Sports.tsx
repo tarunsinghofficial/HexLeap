@@ -39,7 +39,6 @@ function Sports() {
                         key={item.id}
                         title={item.title}
                         description={item.description}
-                        adUrl={item.adUrl}
                         backgroundImageUrl={item.imgUrl}
                     />
                 ))}

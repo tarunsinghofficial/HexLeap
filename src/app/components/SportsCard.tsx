@@ -1,17 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
 
-function SportsCard({
-    backgroundImageUrl,
-    title,
-    totalEvents,
-    sport
-} : {
-    backgroundImageUrl: any,
+interface SportsCardProps {
+    backgroundImageUrl: string,
     title: string,
     totalEvents: string,
     sport: string,
-}) {
+}
+
+function SportsCard({ backgroundImageUrl, title, totalEvents, sport } : SportsCardProps) {
 
   return (
     <div className='w-[10rem] h-[25rem]  md:w-[15rem] md:h-[32rem] xl:w-[238.53px] xl:h-[511px] bg-white dark:bg-[#3B3E47] drop-shadow-md hover:drop-shadow-xl p-2 flex flex-col justify-between space-y-2'>

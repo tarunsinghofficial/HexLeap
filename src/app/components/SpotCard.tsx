@@ -2,21 +2,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-function SpotCard({
-    backgroundImageUrl,
-    title,
-    dataTime,
-    location,
-    url,
-    btnTitle
-} : {
-    backgroundImageUrl: any,
+interface SpotCardProps {
+    backgroundImageUrl: string,
     title: string,
     dataTime: string,
     location: string,
     url: string,
     btnTitle: string,
-}) {
+}
+
+function SpotCard({ backgroundImageUrl, title, dataTime, location, url, btnTitle} : SpotCardProps) {
     return (
         <div className='relative w-[14rem] h-[27rem] xl:w-[257px] xl:h-[624px] bg-white dark:bg-[#3B3E47] drop-shadow-md hover:drop-shadow-xl p-2 flex flex-col'>
             <Image src={backgroundImageUrl} alt={title} width={1000} height={1000} />
