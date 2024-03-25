@@ -123,7 +123,7 @@ const data = [
                 title: "Las Vegas Aviators",
                 dataTime: "Oct 15 | Sun | 4:30 PM",
                 location: "Las Vegas Ballpark, Las Vegas, Nevada",
-                url: "http://",
+                url: "https://www.google.com",
                 btnTitle: "Take Flight Collection"
             },
             {
@@ -132,7 +132,7 @@ const data = [
                 title: "Sacramento River Cats",
                 dataTime: "Oct 15 | Sun | 4:30 PM",
                 location: "Sutter Health Park, Sacramento, California",
-                url: "http://",
+                url: "https://www.google.com",
                 btnTitle: "Orange Collection"
             },
             {
@@ -141,14 +141,14 @@ const data = [
                 title: "Las Vegas Aviators",
                 dataTime: "Oct 15 | Sun | 4:30 PM",
                 location: "Las Vegas Ballpark, Las Vegas, Nevada",
-                url: "http://",
+                url: "https://www.google.com",
                 btnTitle: "Take Flight Collection"
             },
         ],
         ads: [
             {
                 id: 1,
-                adUrl: "https://",
+                adUrl: "https://www.google.com",
                 title: "Advertisment title",
                 imgUrl: adImage,
                 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
