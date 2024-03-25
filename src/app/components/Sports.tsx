@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import Card from './Card';
+import SportsCard from './SportsCard';
 import data from '../data/data';
 import AdCard from './AdCard';
 
@@ -12,21 +12,21 @@ function Sports() {
     }
 
     const seeLessContent = () => {
-        setVisibleItems(5);
+        setVisibleItems(4);
     }
 
     return (
-        <div className='container mx-auto space-y-10 p-4 lg:p-0 md:p-0'>
+        <div className='container mx-auto space-y-10 w-full p-6 lg:p-0 md:p-0'>
             {/* header */}
             <div className="w-16 space-y-1">
                 <h2 className="text-xl text-black dark:text-white font-bold">Sports</h2>
                 <div className="bg-[#738FFF] w-auto h-1"></div>
             </div>
             {/* sports section */}
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 place-items-center gap-14">
+            <div className="mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 place-items-center gap-10">
                 {/* Display only the number of visible items */}
                 {data[0].sport.slice(0, visibleItems).map((item) => (
-                    <Card
+                    <SportsCard
                         key={item.id}
                         backgroundImageUrl={item.backgroundUrl}
                         title={item.title}

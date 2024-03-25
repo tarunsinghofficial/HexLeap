@@ -3,7 +3,7 @@ import Spotlight from "./components/Spotlight";
 
 export default function Home() {
   return (
-    <main className="space-y-10 my-10">
+    <main className="space-y-10 my-3">
       <div className="px-0 lg:px-[5rem]">
         <Sports />
       </div>
