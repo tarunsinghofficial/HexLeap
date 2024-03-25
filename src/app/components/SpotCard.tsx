@@ -27,7 +27,7 @@ function SpotCard({
             <div className='flex flex-col justify-end space-y-3 mt-3 lg:mt-6'>
                 <h2 className='text-black dark:text-white text-center font-medium text-[12px] md:text-[14px] xl:text-[17px]'>{title}</h2>
                 <p className='text-black dark:text-white text-center text-[10px] md:text-[12px] xl:text-[14px]'>{dataTime}</p>
-                <p className='text-[#525965] dark:text-white text-center text-[11px] md:text-[12px] xl:text-[14px]'>{location}</p>
+                <p className='text-[#525965] dark:text-[#DFDFDF] text-center text-[11px] md:text-[12px] xl:text-[14px]'>{location}</p>
                 <Link href={url} className='bg-black w-[10rem] lg:w-[15rem] text-center text-white text-xs md:text-md lg:text-lg px-4 py-2'>{btnTitle}</Link>
             </div>
         </div>
